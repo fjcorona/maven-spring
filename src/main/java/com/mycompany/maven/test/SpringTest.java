@@ -10,7 +10,7 @@ public class SpringTest {
     public static void testMessage() {
         ApplicationContext appContext = new ClassPathXmlApplicationContext("beans.xml");
         Message message = (Message) appContext.getBean("messageId");
-        System.out.println("The message is: " + message.getMessage());
+        System.out.println("The message 1 is: " + message.getMessage());
         Message message2 = (Message) appContext.getBean("messageId2");
         System.out.println("The message 2 is: " + message2.getMessage());
     }
