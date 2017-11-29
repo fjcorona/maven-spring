@@ -19,6 +19,8 @@ public class SpringTest {
         ApplicationContext appContext= new ClassPathXmlApplicationContext("classpath:/beans.xml");
         Message message = (Message) appContext.getBean("messageId");
         System.out.println("The message is: " + message.getMessage());
+        Message message2 = (Message) appContext.getBean("messageId2");
+        System.out.println("The message 2 is: " + message2.getMessage());
     }
     
 }

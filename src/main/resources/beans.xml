@@ -7,4 +7,7 @@
     <bean id="messageId" class="com.mycompany.maven.spring.Message">
         <property name="message" value="Hello World" />
     </bean>
+    <bean id="messageId2" class="com.mycompany.maven.spring.Message">
+        <property name="message" value="Good Bye World" />
+    </bean>
 </beans>
