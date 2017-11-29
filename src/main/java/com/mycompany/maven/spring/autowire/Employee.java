@@ -42,4 +42,9 @@ public class Employee {
         this.address = address;
     }
 
+    @Override
+    public String toString() {
+        return "Employee{" + "name=" + name + ", age=" + age + ", address=" + address + '}';
+    }
+
 }
