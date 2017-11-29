@@ -9,14 +9,14 @@
 
     <!-- Scenario 1 -->
 
-    <bean id="employee" class="com.hubberspot.spring.autowire.Employee"
+    <bean id="employee" class="com.mycompany.spring.autowire.Employee"
           autowire="no">
         <property name="name" value="Jonty" />
         <property name="age" value="28" />
         <property name="address" ref="address"></property>
     </bean>
 
-    <bean id="address" class="com.hubberspot.spring.autowire.Address">
+    <bean id="address" class="com.mycompany.spring.autowire.Address">
         <property name="street" value="Town Hall Street" />
         <property name="city" value="Pune" />
         <property name="state" value="Maharashtra"></property>
